@@ -1,12 +1,13 @@
 /*Schrijf hier jouw CSS*/
 
 body {
-    height: 100vp;
     display: flex;
+    flex-basis: 600px;
 }
 
 .outer-col-1 {
     flex-grow: 1;
+    height: 600px;
 }
 
 .outer-col-2 {
@@ -18,11 +19,20 @@ body {
     display: flex;
 }
 
-
 .inner-col {
     flex-grow: 5;
 }
-
+article {
+    height: 400px;
+}
 aside {
     flex-grow: 1;
+}
+
+header {
+    height: 100px;
+}
+
+footer {
+    height: 100px;
 }

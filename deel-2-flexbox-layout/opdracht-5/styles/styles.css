@@ -1,13 +1,14 @@
 /*Schrijf hier jouw CSS*/
 
 body {
-    height: 100vp;
     display: flex;
+    flex-basis: 600px;
     flex-direction: column;
 }
 
 main {
     display: flex;
+    flex-basis: 400px;
 }
 
 article {
@@ -23,4 +24,14 @@ nav {
 aside {
     order: 3;
     flex-grow: 1;
+}
+
+header {
+    display: flex;
+    flex-basis: 100px;
+}
+
+footer {
+    display: flex;
+    flex-basis: 100px;
 }

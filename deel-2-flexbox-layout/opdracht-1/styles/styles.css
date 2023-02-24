@@ -1,19 +1,21 @@
 /*Schrijf hier jouw CSS*/
 
 body {
-    height: 100vp;
     display: flex;
+    flex-basis: 100%;
     flex-direction: column;
 }
 
 /* HEADER */
 header  {
-    height: 100px;
+    flex-basis: 100px;
 }
 
 /* MAIN */
 main {
     display: flex;
+    flex-basis: 400px;
+    flex-grow: 1;
 }
 
 article {
@@ -30,5 +32,5 @@ aside {
 
 /* FOOTER */
 footer {
-    height: 100px;
+    flex-basis: 100px;
 }

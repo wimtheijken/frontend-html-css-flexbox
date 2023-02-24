@@ -1,8 +1,11 @@
 /*Schrijf hier jouw CSS*/
+* {
+
+}
 
 body {
     display: flex;
-    height: 100vp;
+    flex-basis: 500px;
 }
 
 .col-1 {
@@ -14,4 +17,24 @@ body {
     display: flex;
     flex-direction: column;
     flex-grow: 6;
+}
+
+header {
+    display: flex;
+    flex-basis: 100px;
+}
+
+main {
+    display: flex;
+    flex-basis: 400px;
+}
+
+footer {
+    display: flex;
+    flex-basis: 100px;
+}
+
+article {
+    display: flex;
+    flex-basis: 100%;
 }
