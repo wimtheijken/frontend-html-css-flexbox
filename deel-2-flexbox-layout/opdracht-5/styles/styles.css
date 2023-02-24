@@ -1,1 +1,26 @@
 /*Schrijf hier jouw CSS*/
+
+body {
+    height: 100vp;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+}
+
+article {
+    order: 2;
+    flex-grow: 5;
+}
+
+nav {
+    order: 1;
+    flex-grow: 1;
+}
+
+aside {
+    order: 3;
+    flex-grow: 1;
+}

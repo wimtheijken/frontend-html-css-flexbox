@@ -1,1 +1,28 @@
 /*Schrijf hier jouw CSS*/
+
+body {
+    height: 100vp;
+    display: flex;
+}
+
+.outer-col-1 {
+    flex-grow: 1;
+}
+
+.outer-col-2 {
+    flex-grow: 6;
+
+}
+
+.inner-row {
+    display: flex;
+}
+
+
+.inner-col {
+    flex-grow: 5;
+}
+
+aside {
+    flex-grow: 1;
+}
