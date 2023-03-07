@@ -1,1 +1,94 @@
 /*Schrijf hier jouw css*/
+/*
+space cadet #151e3f (donkerblauw)
+oxfort blue #030027 (donker)
+beige #f2f3d9
+Buff #dc9e82
+old rose #c16e70
+ */
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+/*TYPOGRAFIE*/
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    background-color: #f2f3d9;
+}
+
+h1 {
+    font-size: 30px;
+
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+/*HEADER*/
+
+header {
+    display: flex;
+    flex-basis: 70px;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: #fff;
+    background: #030027;
+}
+
+header ul {
+    display: flex;
+    gap: 50px;
+}
+
+li {
+    font-size: 16px;
+    list-style: none;
+}
+
+/*MAIN*/
+main {
+    display: flex;
+    justify-content: center;
+}
+
+div {
+    width: 1000px;
+    padding: 40px;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    padding-top: 30px;
+}
+
+article {
+    display: flex;
+    flex-grow: 250px;
+    height: 350px;
+    padding: 15px;
+    margin: 20px;
+    background-color: #c16e70;
+}
+
+p {
+    display: flex;
+    align-self: flex-end;
+    text-align: center;
+}
