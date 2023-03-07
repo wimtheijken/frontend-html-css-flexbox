@@ -2,37 +2,45 @@
 
 body {
     display: flex;
-    flex-basis: 600px;
+    min-height: 100vh;
 }
 
 .outer-col-1 {
-    flex-grow: 1;
-    height: 600px;
+    flex-basis: 20vw;
 }
 
 .outer-col-2 {
-    flex-grow: 6;
-
-}
-
-.inner-row {
     display: flex;
-}
-
-.inner-col {
-    flex-grow: 5;
-}
-article {
-    height: 400px;
-}
-aside {
+    flex-direction: column;
+    flex-basis: auto;
     flex-grow: 1;
 }
 
 header {
-    height: 100px;
+    flex-basis: 200px;
+}
+
+.inner-row {
+    display: flex;
+    flex-basis: auto;
+    flex-grow: 1;
+}
+
+.inner-col {
+    display: flex;
+    flex-direction: column;
+    flex-basis: auto;
+    flex-grow: 1;
+}
+
+article {
+    flex-basis: auto;
+    flex-grow: 1;
+}
+aside {
+    flex-basis: 20vw;
 }
 
 footer {
-    height: 100px;
+    flex-basis: 200px;
 }
